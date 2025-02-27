@@ -1,0 +1,32 @@
+# 🛑 Ne pas versionner les fichiers de configuration sensibles
+.env
+
+# 🛑 Ne pas versionner les dépendances (elles sont installées via package.json)
+node_modules/
+
+# 🛑 Logs & fichiers de debug
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+lerna-debug.log
+.dockerignore
+
+# 🛑 Cache & fichiers temporaires
+*.log
+logs/
+tmp/
+dist/
+build/
+.cache/
+coverage/
+.vscode/
+.idea/
+.DS_Store
+
+# 🛑 Ne pas versionner les fichiers uploadés (si tu fais du stockage local)
+uploads/
+
+# 🛑 Ne pas versionner les dépendances installées avec pm2
+pm2-log.log
+pids/
